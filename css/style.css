@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+body{
+
+    background: rgb(180,180,180);
+    background: linear-gradient(0deg, rgba(180,180,180,1) 0%, rgba(85,85,85,1) 100%); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align:center;
+    color: black;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+h2{
+    text-align:center;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 1.2rem;
+}
+
+h3{
+    text-align:center;
+    color: black;
+    font-weight: 700;
+    font-size: 23px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+h4{
+    text-align:center;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+p{
+    font-size: 15px;
+    margin-bottom: 0.2rem;
+    margin-left: 1rem;
+}
+
+#footer-conteudo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    background: rgb(92, 92, 92);
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+  }
+
+#imagem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    width: 30%;
+}
